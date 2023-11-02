@@ -1,7 +1,19 @@
 .parallax {
     height: 100%;
+    max-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.navColor {
+    background-color: hsl(210deg 7.69% 5.1%);
+}
+
+.textNav {
+    color: azure !important;
+}
+.textNav:hover {
+    color: rgb(105, 178, 178) !important;
 }
